@@ -11,51 +11,9 @@ share the results.
 The most important part of the interview will come after this one, when we look at the app together, talk about the
 decisions you have made, etc..
 
-You have two different options to choose from for your assignment. You only need to complete one of them:
-
-1. A Node CLI
-2. A React client app
-
-## Node CLI
-
-| ℹ️ Please only choose one assignment to work on. Either this Node CLI or the [React](./client) client. |
-| ------------------------------------------------------------------------------------------------------ |
-
-### Requirements
-
-​
-Please write a CLI in javascript/typescript. You are free to use any open source packages you wish. You can create your own repository from scratch or use this one.
-​
-
-### Metrics Gathering CLI
-
-​
-Build a CLI to gather metrics on a git repository. The goal is to measure how much cross collaboration there is across projects in the organization.
-​
-
-- The cli should take as an input a path to a git repository on your machine and perform the following calculation: count the number of contributors that have made commits to multiple projects. For this exercise, projects are defined as subfolders inside the root level "packages" folder.
-  For example, if a repo has folders A, B and C inside the packages folder and user1 has contributed to A and B, user2 has contributed to B and C and user3 has only contributed to C, the output of this command should be 2.
-- The output of this calculation should be placed in a section in the repository's root level `README.md` file. The section should be created if it doesn't exist and updated if it does.
-- Write a couple of tests. The goal here is not to build a production-quality app, so don't test every single detail.
-  Two or three tests should be good enough.
-- Don't forget about error handling and performance. What if the repo isn't set up the way you expect? What if the repo has 1000 contributors?
-
-An example repo to test against is set up here: https://github.com/nrwl/count-contributors-sample
-
 ## Ticket Managing Application (React)
 
-| ℹ️ Please only choose one assignment to work on. Either the Node CLI described above or the [React](./client) client. |
-| --------------------------------------------------------------------------------------------------------------------- |
-
-⚠️ Don't fork this repo. Instead, use the [Download ZIP](https://codeload.github.com/nrwl/nx-coding-assignment/zip/refs/heads/main) link.
-
-```bash
-curl https://codeload.github.com/nrwl/nx-coding-assignment/zip/refs/heads/main --output nx-coding-assignment.zip
-unzip nx-coding-assignment.zip
-cd nx-coding-assignment-main
-```
-
-Then install the packages, and you're good to go!
+Fork the project, clone your fork locally, then install the packages and you're good to go!
 
 ```bash
 yarn
