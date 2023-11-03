@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Tickets from './tickets';
+import TicketDetails from './ticket-details';
 
-describe('Tickets', () => {
+describe('TicketDetails', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Tickets />);
+    const { baseElement } = render(<TicketDetails />);
     expect(baseElement).toBeTruthy();
   });
 });
